@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtisanCraft 3D</title>
+
+    <link rel="stylesheet" href="..//css/stylo.css">
+    <script src='js/java.js'></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-IJWB81ntUcmz1oiK6bH7cZ9sKX5OmrH2n7Cs5RYGz1Nv9zIoDIsy6nogbFjm6QGUK16Hyg5jaDbJsP1Sv9v9bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap JS (opcional, pero útil para algunas funcionalidades de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-qDoGAaK9PsgaBD8CMbKbAqV8MD+L/ra6/HoAEiGTZhsjJZ2Wr+1ck3EGg3XE93en" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e72819caa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+        <img src="..\img\logo.png" alt="Imagen de encabezado" class="header-image" id="inicio">     
+       
+    </header>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <section class="custom-section">
+              <!-- Contenido de la primera sección -->
+              <article>
+                <img src='..\img\onepiece.png'>
+                <img src='..\img\luffy.png'>
+              </article>
+    
+            <div>
+                <h2>Luffy 3D</h2>
+                <p>Figura de luffy</p>
+                <p>Precio: consulta en nuestra tienda </p>
+                <button class="whatsapp-button" onclick="abrirWhatsApp()">
+                    <i class="fas fa-shopping-cart"></i> Abrir Tienda
+                  </button>
+            
+            </div>
+            </section>
+          </div>
+          <div class="col-md-6">
+            <section class="custom-section">
+              <!-- Contenido de la segunda sección -->
+              <article>
+                <img src='..\img\casimeritos.jpg'>
+                <img src='..\img\ajolote.jpg'>
+              </article>
+    
+            <div>
+                <h2>Articulados pintados a mano</h2>
+                <p>Diferentes figuras para regalar como souvenirs</p>
+                <p>Precio: consulta en nuestra tienda </p>
+                <button class="whatsapp-button" onclick="abrirWhatsApp()">
+                    <i class="fas fa-shopping-cart"></i> Abrir Tienda
+                  </button>
+            
+            </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container">
+        <!-- Carrusel Bootstrap -->
+        <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..\img\ajolote.jpg" class="d-block w-100 carousel-image" alt="Primera Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\ekans.jpg" class="d-block w-100 carousel-image" alt="Segunda Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\quimera.jpg" class="d-block w-100 carousel-image" alt="tercera Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\luffy.jpg" class="d-block w-100 carousel-image" alt="cuarta Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\lobito bordito.jpg" class="d-block w-100 carousel-image" alt="quinta Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\reptar.jpg" class="d-block w-100 carousel-image" alt="sexta Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\rodillo cortante.jpg" class="d-block w-100 carousel-image" alt="septima Imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="..\img\groot.jpg" class="d-block w-100 carousel-image" alt="octava Imagen">
+                </div>
+
+
+
+
+                <!-- Agrega más elementos .carousel-item según sea necesario -->
+            </div>
+            <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    
+    <header>
+      <!-- ... Otros elementos del encabezado ... -->
+      
+      <div class="container mt-5">
+        <ul class="list-unstyled">
+
+          <li> Suscribete en : <a href="https://www.facebook.com/profile.php?id=61553498922724" target="_blank">Facebook<i class="fab fa-facebook"></i></a> </li>
+  
+  
+          <li> <a href="https://www.instagram.com/artisancraft3d/" target="_blank">Instagram<i class="fab fa-instagram"></i></a> </li>  
+        
+            <p>Haz clic en el icono para enviar un mensaje: <a href="https://wa.me/+541130031832" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce fa-2xl"></i> </a></p>
+  
+            <!-- Agrega más enlaces según sea necesario -->
+  
+        </ul>
+      </div>
+      
+    
+  
+    </header>
+
+
+    <footer id="footer">
+        <p>&copy; 2023 Tienda en línea. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+

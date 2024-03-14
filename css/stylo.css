@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+
+ /* Estilo del formulario de contacto */
+ .contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  background-color: #25d366;
+  color: #0e0d0d;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+  /* Estilo del botón */
+  .whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Estilo del icono de carrito */
+  .fa-shopping-cart {
+    margin-right: 5px;
+  }
+
+
+
+
+.header-image {
+    float: center; /* La imagen se colocará a la izquierda del texto */
+    margin-right: 20px; /* Margen a la derecha para separar la imagen del texto */
+    border-radius: 5px; /* Esquinas redondeadas para la imagen (opcional) */
+
+}
+
+
+.carousel-image {
+    max-width: 300px;
+    margin: auto; /* Centra la imagen en el carrusel */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 300px; /* Establecer la altura deseada */
+  object-fit: cover; /* Ajustar la imagen manteniendo la proporción y cubriendo el contenedor */
+}
+
+.custom-section {
+  padding: 20px;
+  border: 1px solid #080808;
+  margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fffbfb;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.product img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+
+}
+
+
+article {
+    position: relative;
+    width: 250px;
+    transition: all 0.3s ease;
+  }
+  
+  article img:first-child {
+    box-shadow: 0 60px 60px -60x rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  article img:last-child {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: 0.3s ease;
+    opacity: 0;
+  }
+  
+  article:hover {
+    transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+  }
+  
+  article::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 10%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0) 95%
+    );
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  article:hover::before {
+    opacity: 1;
+  }
+  
+  article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+  }
+
+
+  
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+nav {
+          background-color: #464444;
+          color: #0f0f0f;
+          text-align: center;
+          padding: 15px;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+      }
+
+      main {
+          padding: 60px 20px 20px; /* Ajusta el padding para evitar que el contenido se oculte detrás de la barra de navegación */
+            }
+
+      nav a {
+            color: #ff0101;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            
+
+        }
+ 
